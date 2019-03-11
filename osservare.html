@@ -1,0 +1,57 @@
+---
+layout: verbo
+title: Osservare (esercitazione 1)
+---
+
+<section id="verbi">
+<div class="scheda container invisible">
+    <div class="row">
+      <div class="col-12 contenuto-scheda">
+      </div>
+    </div>
+  </div>
+<div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>{{ site.data.verbi.verbi[0].infinito }}</p>
+          <div class="testone">
+            <p>{{ site.data.verbi.verbi[0].estesa }}</p>
+            <ol class="list-group-flush">
+              <li>Step 1</li>
+              <li>Step 2</li>
+              <li>Step 3</li>
+              <li>Step 4</li>
+            </ol>
+          </div>
+          <div class="solo-testo">
+            <div class="el-testo">
+              <p><b>Weekend al Berghain?</b></p>
+              <p>Giovanni Abbattepaolo</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="syllabus">
+	<div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>{{ site.data.verbi.descrizione }}</p>
+          <div class="testone">
+          	{% for verbi in site.data.verbi.verbi %}
+    			<p id="osservare"><a href="{{ verbi.link }}"><u>{{ verbi.infinito }}</u></a>. {{ verbi.digest }}</p>
+  			{% endfor %}
+          </div>
+
+          <p>{{ site.data.bibliografia.titolo }}</p>
+
+          <ul class="list-unstyled">
+          	{% for libri in site.data.bibliografia.libri %}
+    			<li>{{ libri.autore }}. "{{ libri.titolo }}", {{ libri.pubblicazione }}</li>
+  			{% endfor %} 
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>

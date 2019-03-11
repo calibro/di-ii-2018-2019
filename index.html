@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: Home
+title: Design dell'Interfaccia II. ISIA Urbino
 ---
 
 <div class="container">
@@ -16,26 +16,19 @@ title: Home
 	<div class="container">
       <div class="row">
         <div class="col-12">
-          <p>Il corso si divide in quattro esercitazioni, caratterizzate ognuna da un verbo diverso.</p>
+          <p>{{ site.data.verbi.descrizione }}</p>
           <div class="testone">
-            <p id="osservare"><a href="osservare.html"><u>Osservare</u></a> (es. 1) Eget dolor morbi non arcu. Volutpat lacus laoreet non curabitur dignissim suspendisse.</p>
-            <p><u>Alterare</u> (es. 2) Tortor id aliquet lectus proin nibh nisl condimentum lacus laoreet non curabitur.</p>
-            <p id="svelare"><a href="svelare.html"><u>Svelare</u></a> (es. 3) Purus sit amet volutpat consequat. Neque egestas congue quisque egestas sit amet nisl purus in.</p>
-            <p><a href="pubblicare.html"><u>Pubblicare</u></a> (es. 4) At risus viverra adipiscing at in tellus integer feugiat scelerisque egestas congue quisque egestas.</p>
+          	{% for verbi in site.data.verbi.verbi %}
+    			<p><a href="{{ verbi.link }}"><u>{{ verbi.infinito }}</u></a>. {{ verbi.digest }}</p>
+  			{% endfor %}
           </div>
-          <p>Bibliografia</p>
+
+          <p>{{ site.data.bibliografia.titolo }}</p>
 
           <ul class="list-unstyled">
-            <li>Anceschi, G. (a cura di). <a href="/">“Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali”</a>, Milano, Domus Academy, 1993.</li>
-            <li>Bonsiepe, G. “Dall’oggetto all’interfaccia. Mutazioni del Design”. Milano, Feltrinelli, 1995.</li>
-            <li>Anceschi, G. (a cura di). “Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali”, Milano, Domus Academy, 1993.</li>
-            <li>Bonsiepe, G. “Dall’oggetto all’interfaccia. Mutazioni del Design”. Milano, Feltrinelli, 1995.</li>
-            <li>Anceschi, G. (a cura di). “Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali”, Milano, Domus Academy, 1993.</li>
-            <li>Bonsiepe, G. “Dall’oggetto all’interfaccia. Mutazioni del Design”. Milano, Feltrinelli, 1995.</li>
-            <li>Anceschi, G. (a cura di). “Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali”, Milano, Domus Academy, 1993.</li>
-            <li>Bonsiepe, G. “Dall’oggetto all’interfaccia. Mutazioni del Design”. Milano, Feltrinelli, 1995.</li>
-            <li>Anceschi, G. (a cura di). “Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali”, Milano, Domus Academy, 1993.</li>
-            <li>Bonsiepe, G. “Dall’oggetto all’interfaccia. Mutazioni del Design”. Milano, Feltrinelli, 1995.</li>
+          	{% for libri in site.data.bibliografia.libri %}
+    			<li>{{ libri.autore }}. "{{ libri.titolo }}", {{ libri.pubblicazione }}</li>
+  			{% endfor %} 
           </ul>
         </div>
       </div>

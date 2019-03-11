@@ -1,0 +1,10 @@
+---
+  titolo: "Libri e riferimenti utili"
+  descrizione: "Bibliografia utile al corso e utilizzata come riferimento teorico."
+  libri: 
+    - autore: "Anceschi, G. (a cura di)."
+      titolo: "Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali"
+      pubblicazione: "Milano, Domus Academy, 1993"
+    - autore: "Bonsiepe, G."
+      titolo: "Dall’oggetto all’interfaccia. Mutazioni del Design"
+      pubblicazione: "Milano, Feltrinelli, 1995"

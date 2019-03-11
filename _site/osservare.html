@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <title>Osservare (esercitazione 1)</title>
+</head>
+<body class="fade-out">
+  <div id="indietro"><a href="javascript:history.back()">←</a></div>
+    <div id="diii"><a href="../">DI.II</a></div>
+        <div id="info"><a href="#syllabus">↓</a></div>
+
+        <section id="verbi">
+<div class="scheda container invisible">
+    <div class="row">
+      <div class="col-12 contenuto-scheda">
+      </div>
+    </div>
+  </div>
+<div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>Osservare (es.01)</p>
+          <div class="testone">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ol class="list-group-flush">
+              <li>Step 1</li>
+              <li>Step 2</li>
+              <li>Step 3</li>
+              <li>Step 4</li>
+            </ol>
+          </div>
+          <div class="solo-testo">
+            <div class="el-testo">
+              <p><b>Weekend al Berghain?</b></p>
+              <p>Giovanni Abbattepaolo</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="syllabus">
+	<div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>Il corso è diviso in quattro esercitazioni, ognuna associata a un verbo diverso.</p>
+          <div class="testone">
+          	
+    			<p id="osservare"><a href="osservare"><u>Osservare (es.01)</u></a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  			
+    			<p id="osservare"><a href="alterare"><u>Alterare (es.02)</u></a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  			
+    			<p id="osservare"><a href="svelare"><u>Svelare (es.03)</u></a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  			
+    			<p id="osservare"><a href="pubblicare"><u>Pubblicare (es.04)</u></a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  			
+          </div>
+
+          <p>Libri e riferimenti utili</p>
+
+          <ul class="list-unstyled">
+          	
+    			<li>Anceschi, G. (a cura di).. "Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali", Milano, Domus Academy, 1993</li>
+  			
+    			<li>Bonsiepe, G.. "Dall’oggetto all’interfaccia. Mutazioni del Design", Milano, Feltrinelli, 1995</li>
+  			 
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script>
+    $(function() {
+    $('body').removeClass('fade-out');
+  });
+
+    $(".el-testo").click(function() {
+      $(".scheda").removeClass("invisible").fadeIn(300);
+      $("section").addClass("scuro");
+      $("body").addClass("modal-open");
+    });
+
+    $(".scheda").click(function() {
+      $(".scheda").addClass("invisible").fadeIn(300);
+      $("section").removeClass("scuro");
+      $("body").removeClass("modal-open");
+    });
+  </script>
+</body>
+</html>
