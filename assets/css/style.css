@@ -53,6 +53,18 @@ a, a:visited, a:hover {
 	mix-blend-mode: exclusion;
 }
 
+footer {
+	font-size: 1rem;
+	line-height: 120%;
+	color: #999999;
+	height: 7rem;
+	margin-top: 4rem;
+}
+
+footer li {
+	margin-bottom: 0.5rem;
+}
+
 #diii {
 	position: fixed;
 	font-size: 2rem;
