@@ -56,9 +56,9 @@ a, a:visited, a:hover {
 footer {
 	font-size: 1rem;
 	line-height: 120%;
-	color: #FFFFFF;
-	margin-top: 4rem;
-	margin-bottom: 5rem;
+	color: #999999;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 footer li {
