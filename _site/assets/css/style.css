@@ -181,6 +181,7 @@ li {
 
 .el-testo {
 	width: 33%;
+	max-width: 33%;
 	margin-bottom: 3rem;
 	transition: .3s ease all;
 }
@@ -197,6 +198,11 @@ li {
 
 .librozzo {
 	margin-bottom: 3rem;
+}
+
+::selection {
+	background: #00E52A;
+	color: #FFFFFF;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
