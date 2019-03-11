@@ -55,14 +55,24 @@ a, a:visited, a:hover {
 
 footer {
 	font-size: 1rem;
-	line-height: 120%;
+	line-height: 130%;
 	color: #999999;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 }
 
 footer li {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.4rem;
+}
+
+footer a {
+	transition: .2s ease;
+}
+
+footer a:hover {
+	background: #00E52A;
+	color: black;
+	text-decoration: none;
 }
 
 #diii {
