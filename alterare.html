@@ -1,6 +1,6 @@
 ---
 layout: verbo
-title: Osservare (esercitazione 1)
+title: Alterare (esercitazione 2)
 ---
 
 <section id="verbi">
@@ -17,10 +17,11 @@ title: Osservare (esercitazione 1)
           </ol>
         </div>
         <div class="una-immagine">
-          {% for studenti in site.data.osservare.studenti %}
-          <div class="el-testo">
-            <p><u>{{ studenti.titolo }}</u><br>{{ studenti.autore }}</p>
-          </div>
+          {% for studenti in site.data.alterare.studenti %}
+          <div class="el-immagine"><a href="{{ studenti.link }}" target="_blank">
+            <img src="{{ studenti.img }}" class="img-fluid">
+            <h2><u>{{ studenti.titolo }}</u></h2><p>{{ studenti.autore }}</p>
+          </a></div>
           {% endfor %}
         </div>
       </div>

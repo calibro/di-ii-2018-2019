@@ -1,0 +1,38 @@
+---
+titolo: "Alterare"
+descrizione: "Una serie di estensioni per browser che alterano il funzionamento di alcune piattaforme online."
+studenti: 
+  - autore: "Giovanni Abbattepaolo, Daniele Colombo, Chiara Fanelli" 
+    titolo: "Bé"
+    link: "https://bbtgnn.github.io/be-extension/"
+    img: "assets/images/alterare/be.png"
+
+  - autore: "Michela Colorito, Martina Tresivan, Annalisa Iotti"
+    titolo: "NOMOREMOJI"
+    link: "https://annalisaiotti.github.io/nomoremoji-extension/"
+    img: "assets/images/alterare/nomoremoji.png"
+
+  - autore: "Dalila De Dominicis, Lorenzo Ecolino, Giulia Silani"
+    titolo: "Nexit"
+    link: "https://lorenzoercoli.github.io/nexit-extension/"
+    img: "assets/images/alterare/nexit.png"
+
+  - autore: "Mattia Gabellini, Mara Guerra, Alessandro Lanfrancotti, Francesca Sanson"
+    titolo: "Salebook"
+    link: "https://francescasanson.github.io/salebook-extension/"
+    img: "assets/images/alterare/salebook.png"
+
+  - autore: "Filomena Galvani"
+    titolo: "IGetDown"
+    link: "https://www.youtube.com/watch?v=n2eaduf4QIo"
+    img: "assets/images/alterare/igetdown.png"
+
+  - autore: "Margherita Ganzerli, Marco Loi, Siria Renaudo"
+    titolo: "Amazoff"
+    link: "https://larcomoi.github.io/amazoff-extension/"
+    img: "assets/images/alterare/amazoff.png"
+
+  - autore: "Ludovica Meneghella, Angela Rossi, Fernanda Villari"
+    titolo: "Algotube"
+    link: "https://ludovicameneghella.github.io/algotube-extention/"
+    img: "assets/images/alterare/algotube.png"
