@@ -113,15 +113,19 @@
  }
 
  #syllabus {
+ 	padding-top: 6rem;
  	background: #000000;
  	color: #FFFFFF;
  	overflow: scroll;
  }
 
  #verbi {
+ 	padding-top: 6rem;
+ 	padding-bottom: 3rem;
  	color: #000000;
  	background: #FFFFFF;
  	overflow: scroll;
+ 	background: #FFFFFF;
  }
 
  .verbo {
