@@ -34,25 +34,3 @@ title: Osservare (esercitazione 1)
     </div>
   </div>
 </section>
-<section id="syllabus">
-	<div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p>{{ site.data.verbi.descrizione }}</p>
-        <div class="testone">
-         {% for verbi in site.data.verbi.verbi %}
-         <p id="osservare"><a href="{{ verbi.link }}"><u>{{ verbi.infinito }}</u></a>. {{ verbi.digest }}</p>
-         {% endfor %}
-       </div>
-
-       <p>{{ site.data.bibliografia.titolo }}</p>
-
-       <ul class="list-unstyled">
-         {% for libri in site.data.bibliografia.libri %}
-         <li>{{ libri.autore }}. "{{ libri.titolo }}", {{ libri.pubblicazione }}</li>
-         {% endfor %} 
-       </ul>
-     </div>
-   </div>
- </div>
-</section>

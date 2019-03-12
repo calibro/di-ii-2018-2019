@@ -13,10 +13,10 @@
 </head>
 <body class="fade-out">
   <div id="indietro"><a href="javascript:history.back()">←</a></div>
-    <div id="diii"><a href="/">DI.II</a></div>
-        <div id="info"><a href="#syllabus">↓</a></div>
+  <div id="diii"><a href="/di-iij">DI.II</a></div>
+  <div id="info"><a href="#syllabus">↓</a></div>
 
-        <div class="scheda container invisible">
+  <div class="scheda container invisible">
   <div class="row">
     <div class="col-12 contenuto-scheda">
       Contenuto dinamico?
@@ -89,7 +89,8 @@
     </div>
   </div>
 </section>
-<section id="syllabus">
+
+  <section id="syllabus">
 	<div class="container">
     <div class="row">
       <div class="col-12">
@@ -109,21 +110,20 @@
        <p>Libri e riferimenti utili</p>
 
        <ul class="list-unstyled">
+        
+        <li>Anceschi, G. (a cura di). "Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali", Milano, Domus Academy, 1993</li>
+        
+        <li>Bonsiepe, G. "Dall’oggetto all’interfaccia. Mutazioni del Design", Milano, Feltrinelli, 1995</li>
+        
+        <li>Krug, S. "Don't make me think. A common sense approach to web usability", Berkeley, Calif. New Riders, 2014</li>
          
-         <li>Anceschi, G. (a cura di).. "Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali", Milano, Domus Academy, 1993</li>
-         
-         <li>Bonsiepe, G.. "Dall’oggetto all’interfaccia. Mutazioni del Design", Milano, Feltrinelli, 1995</li>
-         
-         <li>Krug, S.. "Don't make me think. A common sense approach to web usability", Berkeley, Calif. New Riders, 2014</li>
-          
-       </ul>
-     </div>
-   </div>
- </div>
+      </ul>
+    </div>
+  </div>
+</div>
 </section>
 
-
-        <footer>
+  <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-6 col-md-3">
@@ -150,8 +150,8 @@
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script>
     $(function() {
-    $('body').removeClass('fade-out');
-  });
+      $('body').removeClass('fade-out');
+    });
 
     $(".el-testo").click(function() {
       $(".scheda").removeClass("invisible").fadeIn(300);

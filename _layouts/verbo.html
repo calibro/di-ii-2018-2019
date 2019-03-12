@@ -12,13 +12,13 @@
   <title>{{ page.title }}</title>
 </head>
 <body class="fade-out">
-  <div id="indietro"><a href="javascript:history.back()">←</a></div>
-    <div id="diii"><a href="/">DI.II</a></div>
-        <div id="info"><a href="#syllabus">↓</a></div>
+  {% include navigation-back.html %}
 
-        {{ content }}
+  {{ content }}
 
-        {% include footer.html %}
+  {% include syllabus.html %}
+
+  {% include footer.html %}
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
@@ -29,8 +29,8 @@
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script>
     $(function() {
-    $('body').removeClass('fade-out');
-  });
+      $('body').removeClass('fade-out');
+    });
 
     $(".el-testo").click(function() {
       $(".scheda").removeClass("invisible").fadeIn(300);

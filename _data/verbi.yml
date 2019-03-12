@@ -16,10 +16,10 @@ verbi:
     digest: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     estesa: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     steps: 
-      - step: "Flash"
-      - step: "Fresh"
-      - step: "Lo so che piace pesh"
-      - step: "(piace pesh)"
+      - step: "Un dos tre"
+      - step: "Un pasito pa'lante María"
+      - step: "Un, dos, tres"
+      - step: "Un pasito pa' atrás"
   - infinito: "Svelare (es.03)"
     link: svelare
     digest: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
