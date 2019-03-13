@@ -1,6 +1,7 @@
 ---
 
 title: Osservare (es.01)
+id: osservare
 digest: Descrivere ed esaurire un'interfaccia grafica attraverso un testo che riporta i passaggi necessari a raggiungere un obiettivo al suo interno.
 order: 0
 layout: text-embed

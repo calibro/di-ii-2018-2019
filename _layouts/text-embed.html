@@ -10,5 +10,18 @@ layout: default
         <div class="testone">{{ content }}</div>
       </div>
     </div>
+
+    <div class="row">
+    	<div class="col-12">
+    		<div class="text-embed">
+    			{% assign currentPage = osservare.id %}
+    			{% for project in site.data[page.url].projects %}
+    				<div class="text-element">
+    					<p>{{projects.project-title}}</p>
+    					<p>{{projects.authors}}</p>
+    				</div>
+    			{% endfor %}
+    		</div>
+    	</div>
   </div>
 </section>
