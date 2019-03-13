@@ -1,38 +1,38 @@
 ---
-title: "Alterare"
-desc: "Una serie di estensioni per browser che alterano il funzionamento di alcune piattaforme online."
+title: Alterare
+desc: Una serie di estensioni per browser che alterano il funzionamento di alcune piattaforme online.
 projects: 
-  - authors: "Giovanni Abbattepaolo, Daniele Colombo, Chiara Fanelli" 
-    project-title: "Bé"
-    link: "https://bbtgnn.github.io/be-extension/"
-    img: "assets/images/alterare/be.jpg"
+  - authors: Giovanni Abbattepaolo, Daniele Colombo, Chiara Fanelli 
+    project-title: Bé
+    link: https://bbtgnn.github.io/be-extension/
+    img: assets/images/alterare/be.jpg
 
-  - authors: "Michela Colorito, Martina Tresivan, Annalisa Iotti"
-    project-title: "NOMOREMOJI"
-    link: "https://annalisaiotti.github.io/nomoremoji-extension/"
-    img: "assets/images/alterare/nomoremoji.jpg"
+  - authors: Michela Colorito, Martina Tresivan, Annalisa Iotti
+    project-title: NOMOREMOJI
+    link: https://annalisaiotti.github.io/nomoremoji-extension/
+    img: assets/images/alterare/nomoremoji.jpg
 
-  - authors: "Dalila De Dominicis, Lorenzo Ecolino, Giulia Silani"
-    project-title: "Nexit"
-    link: "https://lorenzoercoli.github.io/nexit-extension/"
-    img: "assets/images/alterare/nexit.jpg"
+  - authors: Dalila De Dominicis, Lorenzo Ecolino, Giulia Silani
+    project-title: Nexit
+    link: https://lorenzoercoli.github.io/nexit-extension/
+    img: assets/images/alterare/nexit.jpg
 
-  - authors: "Mattia Gabellini, Mara Guerra, Alessandro Lanfrancotti, Francesca Sanson"
-    project-title: "Salebook"
-    link: "https://francescasanson.github.io/salebook-extension/"
-    img: "assets/images/alterare/salebook.jpg"
+  - authors: Mattia Gabellini, Mara Guerra, Alessandro Lanfrancotti, Francesca Sanson
+    project-title: Salebook
+    link: https://francescasanson.github.io/salebook-extension/
+    img: assets/images/alterare/salebook.jpg
 
-  - authors: "Filomena Galvani"
-    project-title: "IGetDown"
-    link: "https://www.youtube.com/watch?v=n2eaduf4QIo"
-    img: "assets/images/alterare/igetdown.jpg"
+  - authors: Filomena Galvani
+    project-title: IGetDown
+    link: https://www.youtube.com/watch?v=n2eaduf4QIo
+    img: assets/images/alterare/igetdown.jpg
 
-  - authors: "Margherita Ganzerli, Marco Loi, Siria Renaudo"
-    project-title: "Amazoff"
-    link: "https://larcomoi.github.io/amazoff-extension/"
-    img: "assets/images/alterare/amazoff.jpg"
+  - authors: Margherita Ganzerli, Marco Loi, Siria Renaudo
+    project-title: Amazoff
+    link: https://larcomoi.github.io/amazoff-extension/
+    img: assets/images/alterare/amazoff.jpg
 
-  - authors: "Ludovica Meneghella, Angela Rossi, Fernanda Villari"
-    project-title: "Algotube"
-    link: "https://ludovicameneghella.github.io/algotube-extention/"
-    img: "assets/images/alterare/algotube.jpg"
+  - authors: Ludovica Meneghella, Angela Rossi, Fernanda Villari
+    project-title: Algotube
+    link: https://ludovicameneghella.github.io/algotube-extention/
+    img: assets/images/alterare/algotube.jpg

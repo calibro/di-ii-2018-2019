@@ -2,7 +2,7 @@
 
 title: Pubblicare (es.4)
 name: pubblicare
-digest: Descrivere ed esaurire un'interfaccia grafica attraverso un testo che riporta i passaggi necessari a raggiungere un obiettivo al suo interno.
+digest: Divulgare una scoperta all'interno della piattaforma di Airbnb, mettendone in luce i risvolti inaspettati.
 order: 3
 layout: text-embed
 

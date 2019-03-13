@@ -13,11 +13,14 @@ layout: default
 
     <div class="row">
     	<div class="col-12">
-    		<div class="image-grid">
+    		<div class="image-container">
     			{% for projects in site.data[page.name].projects %}
-          <div class="image-small">
+          <div class="image-medium">
+            <a href="{{ projects.link }}" target="_blank">
               <img src="{{ site.baseurl }}/{{ projects.img }}" class="img-fluid">
+              <h2>{{ projects.project-title }}</h2>
               <p>{{ projects.authors }}</p>
+            </a>
           </div>
           {% endfor %}
         </div>

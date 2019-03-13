@@ -2,9 +2,9 @@
 
 title: Svelare (es.3)
 name: svelare
-digest: Descrivere ed esaurire un'interfaccia grafica attraverso un testo che riporta i passaggi necessari a raggiungere un obiettivo al suo interno.
+digest: Raccogliere e mostrare in che modo le proprie informazioni viaggiano nascoste verso altri providers.
 order: 2
-layout: text-embed
+layout: img-grid
 
 ---
 
