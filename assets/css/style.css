@@ -1,19 +1,20 @@
- ---
- ---
+/* @import "main";*/
 
- @import "main";
-
- @font-face {
- 	font-family: 'Authentic';
- 	src:    url('../fonts/Authentic/AUTHENTICSans-130.woff') format('woff');
- 	font-weight: 700;
- 	font-style: normal;
- }
+:root{
+	--ciao:yellow;
+}
 
  @font-face {
  	font-family: 'Authentic';
  	src:    url('../fonts/Authentic/AUTHENTICSans-90.woff') format('woff');
  	font-weight: 300;
+ 	font-style: normal;
+ }
+
+@font-face {
+ 	font-family: 'Authentic';
+ 	src:    url('../fonts/Authentic/AUTHENTICSans-130.woff') format('woff');
+ 	font-weight: 700;
  	font-style: normal;
  }
 

@@ -2,10 +2,11 @@
 	<div class="container">
     <div class="row">
       <div class="col-12">
-        <p>{{ site.data.verbi.descrizione }}</p>
+        <p>{{ site.verbs.title }}</p>
         <div class="testone">
-         {% for verbi in site.data.verbi.verbi %}
-         <p id="osservare"><a href="{{ verbi.link }}"><u>{{ verbi.infinito }}</u></a>. {{ verbi.digest }}</p>
+          {% assign verbs = site.verbs | sort: 'order' %}
+         {% for verb in verbs %}
+         <p id="osservare"><a href="{{site.baseurl}}/{{ verb.url }}"><u>{{ verb.title }}</u></a>. {{ verb.digest }}</p>
          {% endfor %}
        </div>
 
