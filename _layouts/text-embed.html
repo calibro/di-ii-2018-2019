@@ -13,9 +13,8 @@ layout: default
 
     <div class="row">
     	<div class="col-12">
-    		<div class="text-embed">
-    			{% assign currentPage = osservare.id %}
-    			{% for project in site.data[page.url].projects %}
+    		<div class="text-container">
+    			{% for projects in site.data[page.name].projects %}
     				<div class="text-element">
     					<p>{{projects.project-title}}</p>
     					<p>{{projects.authors}}</p>

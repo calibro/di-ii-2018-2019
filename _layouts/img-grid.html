@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section id="verbi">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>{{ page.title }}</p>
+        <div class="testone">{{ content }}</div>
+      </div>
+    </div>
+
+    <div class="row">
+    	<div class="col-12">
+    		<div class="image-container">
+    			{% for projects in site.data[page.name].projects %}
+          <div class="image-element">
+            <a href="{{ projects.link }}" target="_blank">
+              <img src="{{ site.baseurl }}/{{ projects.img }}" class="img-fluid">
+              <h2>{{ projects.project-title }}</h2>
+              <p>{{ projects.authors }}</p>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

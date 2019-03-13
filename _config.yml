@@ -1,7 +1,5 @@
 baseurl: /di-iij
 url: http://andreabenedetti.github.io
-include:
-  - _pages
 collections: 
   verbs:
     title: Verbi
