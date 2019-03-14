@@ -52,7 +52,8 @@ body.fade-out {
 
 section {
 	padding: 4rem 0 4rem 0;
-	transition: .5s ease all;
+	transition: .5s all;
+	will-change: transform;
 }
 
 h1, h2, h3 {
