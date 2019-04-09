@@ -6,7 +6,7 @@
         <div class="testone">
           {% assign verbs = site.verbs | sort: 'order' %}
          {% for verb in verbs %}
-         <p><a href="{{site.baseurl}}{{ verb.url }}">{{ verb.title }}</a>. {{ verb.digest }}</p>
+         <p><a href="{{site.baseurl}}/verbs/{{ verb.name }}">{{ verb.title }}</a>. {{ verb.digest }}</p>
          {% endfor %}
        </div>
 

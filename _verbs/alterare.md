@@ -5,6 +5,7 @@ name: alterare
 digest: Modificare il comportamento di una piattaforma sfruttando i pattern di interazione osservati precedentemente.
 order: 1
 layout: img-link
+url: alterare
 
 ---
 
