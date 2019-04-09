@@ -1,0 +1,16 @@
+title: Pubblicare
+desc: L'esercitazione è stata svolta in gruppi da tre.
+projects:
+  - authors: 1, 2, 3
+    id: 1
+    project-title: Titolo 1
+    img:
+      - item: assets/images/placeholder-1.jpg
+      - item: assets/images/placeholder-2.jpg
+      - item: assets/images/placeholder-3.jpg
+  - authors: 3, 4, 5
+    id: 2
+    project-title: Titolo 2
+    img:
+      - item: assets/images/placeholder-1.jpg
+      - item: assets/images/placeholder-2.jpg

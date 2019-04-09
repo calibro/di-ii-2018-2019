@@ -42,7 +42,7 @@ body {
 	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 130%;
-	transition: 1s opacity;
+	transition: .5s all cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 body.fade-out {
@@ -180,6 +180,22 @@ footer a:hover {
 	margin-bottom: 5rem;
 	text-indent: 3rem;
 	line-height: 130%;
+}
+
+.carousel {
+	margin-bottom: 3rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 50%;
+}
+
+.carousel-control-prev {
+	cursor: w-resize;
+}
+
+.carousel-control-next {
+	cursor: e-resize;
 }
 
 /* Layouts */
