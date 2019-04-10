@@ -99,103 +99,293 @@
   <div class="close"></div>
   <div class="row">
     
-    <div id="berghain" class="col-12 berghain d-none">
+    <div id="berghain-embed" class="col-12 berghain d-none">
+      <h2>Weekend al Berghain?</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@bbtgnn/weekend-al-berghain.js";
 
-        Runtime.load(notebook, Inspector.into(".berghain"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("berghain-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("berghain-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="linkedin" class="col-12 linkedin d-none">
+    <div id="linkedin-embed" class="col-12 linkedin d-none">
+      <h2>LinkedIn for Dummies</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@michelacolorito/linkedin-for-dummies/2.js";
 
-        Runtime.load(notebook, Inspector.into(".linkedin"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("linkedin-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("linkedin-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="tinder" class="col-12 tinder d-none">
+    <div id="tinder-embed" class="col-12 tinder d-none">
+      <h2>Natale su Tinder</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@mattiagabellini08/natale-su-tinder.js";
 
-        Runtime.load(notebook, Inspector.into(".tinder"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("tinder-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("tinder-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="twee" class="col-12 twee d-none">
+    <div id="twee-embed" class="col-12 twee d-none">
+      <h2>Non c'è niente di twee tra di noi</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@lorenzoercoli/non-ce-niente-di-twee-tra-di-noi.js";
 
-        Runtime.load(notebook, Inspector.into(".twee"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("twee-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("twee-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="concatenate" class="col-12 concatenate d-none">
+    <div id="concatenate-embed" class="col-12 concatenate d-none">
+      <h2>Conoscenze concatenate</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@kipp-fhtagn/conoscenze-concatenate.js";
 
-        Runtime.load(notebook, Inspector.into(".concatenate"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("concatenate-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("concatenate-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="behance" class="col-12 behance d-none">
+    <div id="behance-embed" class="col-12 behance d-none">
+      <h2>Un progetto carino</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@maraguerra/un-progetto-carino.js";
 
-        Runtime.load(notebook, Inspector.into(".behance"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("behance-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("behance-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="amazon" class="col-12 amazon d-none">
+    <div id="amazon-embed" class="col-12 amazon d-none">
+      <h2>Amazing Amazon</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@annalisaiotti/amazing-amazon.js";
 
-        Runtime.load(notebook, Inspector.into(".amazon"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("amazon-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("amazon-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="berlin" class="col-12 berlin d-none">
+    <div id="berlin-embed" class="col-12 berlin d-none">
+      <h2>berlin, new berlin, berlin</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@francescasanson/berlin-new-berlin-berlin.js";
 
-        Runtime.load(notebook, Inspector.into(".berlin"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("berlin-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("berlin-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="nonfortunato" class="col-12 nonfortunato d-none">
+    <div id="nonfortunato-embed" class="col-12 nonfortunato d-none">
+      <h2>Non mi sento fortunato</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@angelarossi/non-mi-sento-fortunato.js";
 
-        Runtime.load(notebook, Inspector.into(".nonfortunato"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("nonfortunato-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("nonfortunato-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     
-    <div id="ferragni" class="col-12 ferragni d-none">
+    <div id="ferragni-embed" class="col-12 ferragni d-none">
+      <h2>Hy guys!</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "https://api.observablehq.com/@giuliasilani/hy-guys/2.js";
 
-        Runtime.load(notebook, Inspector.into(".ferragni"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("ferragni-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("ferragni-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     

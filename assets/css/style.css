@@ -251,6 +251,7 @@ footer a:hover {
 	right: -2rem;
 	width: 32px;
 	height: 32px;
+	z-index: 9999;
 }
 
 .close:hover {
@@ -386,6 +387,11 @@ footer a:hover {
 
 	.sheet .row {
 		margin: auto !important;
+	}
+
+	.sheet .pdf {
+		max-width: 100%;
+		width: 100%;
 	}
 
 	.text-element, .observablehq > * {

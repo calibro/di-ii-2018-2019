@@ -29,13 +29,32 @@ layout: default
   <div class="close"></div>
   <div class="row">
     {% for projects in site.data[page.name].projects %}
-    <div id="{{projects.id}}" class="col-12 {{projects.id}} d-none">
+    <div id="{{projects.id}}-embed" class="col-12 {{projects.id}} d-none">
+      <h2>{{projects.project-title}}</h2>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
         import notebook from "{{projects.link}}";
 
-        Runtime.load(notebook, Inspector.into(".{{projects.id}}"));
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "narrative"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("{{projects.id}}-embed").appendChild(value);
+              }
+            };
+          }
+        });
+
+        Runtime.load(notebook, (cell) => {
+          if (cell.name === "style"){
+            return {
+              fulfilled: (value) => {
+                document.getElementById("{{projects.id}}-embed").appendChild(value);
+              }
+            };
+          }
+        });
       </script>
     </div>
     {% endfor %}
