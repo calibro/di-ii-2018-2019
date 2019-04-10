@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/di-iij/assets/css/style.css">
 
-  <title>Osservare (es.1)</title>
+  <title>DI.II - Osservare (es.1)</title>
 </head>
 <body class="fade-out">
   <div id="navigation">
@@ -40,60 +40,167 @@
     	<div class="col-12">
     		<div class="text-container">
     			
-    				<div class="text-element">
-    					<h2>Weekend al Berghain?</h2>
-    					<p>Giovanni Abbattepaolo, Fernanda Villari</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>LinkedIn for Dummies</h2>
-    					<p>Michela Colorito</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Natale su Tinder</h2>
-    					<p>Dalila De Dominicis, Mattia Gabellini, Marco Loi</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Non c'è niente di twee tra di noi</h2>
-    					<p>Lorenzo Ercolino, Alessandro Lanfrancofotti</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Conoscenze concatenate</h2>
-    					<p>Chiara Fanelli, Ludovica Meneghella</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Un progetto carino</h2>
-    					<p>Filomena Galvani, Mara Guerra</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Amazing Amazon</h2>
-    					<p>Margherita Ganzerli, Annalisa Iotti</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>berlin, new berlin, berlin</h2>
-    					<p>Siria Renaudo, Francesca Sanson</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Non mi sento fortunato</h2>
-    					<p>Angela Rossi</p>
-    				</div>
-    			
-    				<div class="text-element">
-    					<h2>Hy guys!</h2>
-    					<p>Giulia Silani, Martina Tresivan</p>
-    				</div>
-    			
-    		</div>
-    	</div>
+          <div class="text-element" id="berghain">
+           <h2>Weekend al Berghain?</h2>
+           <p>Giovanni Abbattepaolo, Fernanda Villari</p>
+         </div>
+         
+          <div class="text-element" id="linkedin">
+           <h2>LinkedIn for Dummies</h2>
+           <p>Michela Colorito</p>
+         </div>
+         
+          <div class="text-element" id="tinder">
+           <h2>Natale su Tinder</h2>
+           <p>Dalila De Dominicis, Mattia Gabellini, Marco Loi</p>
+         </div>
+         
+          <div class="text-element" id="twee">
+           <h2>Non c'è niente di twee tra di noi</h2>
+           <p>Lorenzo Ercolino, Alessandro Lanfrancofotti</p>
+         </div>
+         
+          <div class="text-element" id="concatenate">
+           <h2>Conoscenze concatenate</h2>
+           <p>Chiara Fanelli, Ludovica Meneghella</p>
+         </div>
+         
+          <div class="text-element" id="behance">
+           <h2>Un progetto carino</h2>
+           <p>Filomena Galvani, Mara Guerra</p>
+         </div>
+         
+          <div class="text-element" id="amazon">
+           <h2>Amazing Amazon</h2>
+           <p>Margherita Ganzerli, Annalisa Iotti</p>
+         </div>
+         
+          <div class="text-element" id="berlin">
+           <h2>berlin, new berlin, berlin</h2>
+           <p>Siria Renaudo, Francesca Sanson</p>
+         </div>
+         
+          <div class="text-element" id="nonfortunato">
+           <h2>Non mi sento fortunato</h2>
+           <p>Angela Rossi</p>
+         </div>
+         
+          <div class="text-element" id="ferragni">
+           <h2>Hy guys!</h2>
+           <p>Giulia Silani, Martina Tresivan</p>
+         </div>
+         
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <div class="container sheet invisible">
+  <div class="close"></div>
+  <div class="row">
+    
+    <div id="berghain" class="col-12 berghain d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@bbtgnn/weekend-al-berghain.js";
+
+        Runtime.load(notebook, Inspector.into(".berghain"));
+      </script>
+    </div>
+    
+    <div id="linkedin" class="col-12 linkedin d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@michelacolorito/linkedin-for-dummies/2.js";
+
+        Runtime.load(notebook, Inspector.into(".linkedin"));
+      </script>
+    </div>
+    
+    <div id="tinder" class="col-12 tinder d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@mattiagabellini08/natale-su-tinder.js";
+
+        Runtime.load(notebook, Inspector.into(".tinder"));
+      </script>
+    </div>
+    
+    <div id="twee" class="col-12 twee d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@lorenzoercoli/non-ce-niente-di-twee-tra-di-noi.js";
+
+        Runtime.load(notebook, Inspector.into(".twee"));
+      </script>
+    </div>
+    
+    <div id="concatenate" class="col-12 concatenate d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@kipp-fhtagn/conoscenze-concatenate.js";
+
+        Runtime.load(notebook, Inspector.into(".concatenate"));
+      </script>
+    </div>
+    
+    <div id="behance" class="col-12 behance d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@maraguerra/un-progetto-carino.js";
+
+        Runtime.load(notebook, Inspector.into(".behance"));
+      </script>
+    </div>
+    
+    <div id="amazon" class="col-12 amazon d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@annalisaiotti/amazing-amazon.js";
+
+        Runtime.load(notebook, Inspector.into(".amazon"));
+      </script>
+    </div>
+    
+    <div id="berlin" class="col-12 berlin d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@francescasanson/berlin-new-berlin-berlin.js";
+
+        Runtime.load(notebook, Inspector.into(".berlin"));
+      </script>
+    </div>
+    
+    <div id="nonfortunato" class="col-12 nonfortunato d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@angelarossi/non-mi-sento-fortunato.js";
+
+        Runtime.load(notebook, Inspector.into(".nonfortunato"));
+      </script>
+    </div>
+    
+    <div id="ferragni" class="col-12 ferragni d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "https://api.observablehq.com/@giuliasilani/hy-guys/2.js";
+
+        Runtime.load(notebook, Inspector.into(".ferragni"));
+      </script>
+    </div>
+    
   </div>
-</section>
+</div>
 
   <section id="syllabus">
 	<div class="container">
@@ -151,7 +258,10 @@
   <!-- Optional JavaScript -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -161,6 +271,19 @@
     });
 
     $('[id^="myCarousel"]').carousel();
+
+    $(".text-element").click(function() {
+      let id = $(this).attr("id");
+      $(".sheet").removeClass("invisible");
+      $("." + id).removeClass("d-none");
+      $("section").addClass("ombre");
+    });
+
+    $(".close").click(function() {
+      $(".sheet").addClass("invisible");
+      $(".sheet .col-12").addClass("d-none");
+      $("section").removeClass("ombre");
+    });
   </script>
 
   <script src="/di-iij/assets/js/skew.js"></script>

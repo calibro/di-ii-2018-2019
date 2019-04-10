@@ -15,12 +15,29 @@ layout: default
     	<div class="col-12">
     		<div class="text-container">
     			{% for projects in site.data[page.name].projects %}
-    				<div class="text-element">
-    					<h2>{{projects.project-title}}</h2>
-    					<p>{{projects.authors}}</p>
-    				</div>
-    			{% endfor %}
-    		</div>
-    	</div>
+          <div class="text-element" id="{{projects.id}}">
+           <h2>{{projects.project-title}}</h2>
+           <p>{{projects.authors}}</p>
+         </div>
+         {% endfor %}
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <div class="container sheet invisible">
+  <div class="close"></div>
+  <div class="row">
+    {% for projects in site.data[page.name].projects %}
+    <div id="{{projects.id}}" class="col-12 {{projects.id}} d-none">
+      <script type="module">
+        import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+        import notebook from "{{projects.link}}";
+
+        Runtime.load(notebook, Inspector.into(".{{projects.id}}"));
+      </script>
+    </div>
+    {% endfor %}
   </div>
-</section>
+</div>
