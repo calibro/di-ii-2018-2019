@@ -2,41 +2,41 @@ title: Pubblicare
 desc: L'esercitazione è stata svolta in gruppi da tre.
 projects:
   - authors: Margherita Ganzerli, Francesca Sanson, Giulia Silani, Giovanni Abbattepaolo
-    id: 1
+    id: naples
     project-title: Naples’ popular language
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
       - item: assets/images/placeholder-3.jpg
   - authors: Ludovica Meneghella, Angela Rossi
-    id: 2
+    id: lovenest
     project-title: What is Lovenest?
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
 
   - authors: Dalila De Dominicis, Siria Renaudo, Martina Tresivan
-    id: 3
+    id: alongtoledo
     project-title: Alongtoledo
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
   - authors: Daniele Colombo, Lorenzo Ercolino, Filomena Galvani
-    id: 4
+    id: oligarchy
     project-title: Airbnb Oligarchy
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
 
   - authors: Mattia Gabellini, Alessandro Lanfrancotti, Michela Colorito
-    id: 5
+    id: erbnb
     project-title: ErBnB. The seven kings of Rome
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
 
   - authors: Marco Loi, Fernanda Villari, Chiara Fanelli
-    id: 6
+    id: airbeds
     project-title: AIRBEDS
     img:
       - item: assets/images/placeholder-1.jpg
