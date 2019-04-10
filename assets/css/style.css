@@ -207,6 +207,10 @@ footer a:hover {
 	cursor: e-resize;
 }
 
+.carousel-item {
+	transition: 0.7s all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 /* Layouts */
 
 .text-container, .image-container {
@@ -245,34 +249,6 @@ footer a:hover {
 	cursor: default;
 }
 
-.close {
-	position: sticky;
-	top: 0rem;
-	right: -2rem;
-	width: 32px;
-	height: 32px;
-	z-index: 9999;
-}
-
-.close:hover {
-	cursor: pointer;
-}
-
-.close:before, .close:after {
-	position: absolute;
-	left: 15px;
-	content: ' ';
-	height: 33px;
-	width: 2px;
-	background-color: #000000;
-}
-.close:before {
-	transform: rotate(45deg);
-}
-.close:after {
-	transform: rotate(-45deg);
-}
-
 .invisible {
 	opacity: 0;
 }
@@ -301,6 +277,35 @@ footer a:hover {
 
 .text-element p {
 	margin-bottom: 1rem;
+}
+
+.close {
+	position: sticky;
+	top: -1rem;
+	margin-top: -1rem;
+	margin-right: -1rem;
+	width: 32px;
+	height: 32px;
+	z-index: 9999;
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+.close:before, .close:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: #000000;
+}
+.close:before {
+	transform: rotate(45deg);
+}
+.close:after {
+	transform: rotate(-45deg);
 }
 
 .cut-hover {
