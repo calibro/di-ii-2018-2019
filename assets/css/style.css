@@ -246,30 +246,30 @@ footer a:hover {
 }
 
 .close {
-  position: sticky;
-  top: 0rem;
-  right: -2rem;
-  width: 32px;
-  height: 32px;
+	position: sticky;
+	top: 0rem;
+	right: -2rem;
+	width: 32px;
+	height: 32px;
 }
 
 .close:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .close:before, .close:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #000000;
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: #000000;
 }
 .close:before {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .close:after {
-  transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 .invisible {
@@ -377,5 +377,19 @@ footer a:hover {
 		min-width: 100%;
 		margin: auto;
 		margin-bottom: 3rem;
+	}
+
+	.sheet {
+		padding: 1rem;
+		height: 93%;
+	}
+
+	.sheet .row {
+		margin: auto !important;
+	}
+
+	.text-element, .observablehq > * {
+		width: 100% !important;
+		max-width: 100% !important;
 	}
 }
