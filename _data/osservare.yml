@@ -4,50 +4,50 @@ desc: L'esercitazione è stata svolta in gruppi da tre.
 projects: 
   - authors: Giovanni Abbattepaolo, Fernanda Villari 
     project-title: Weekend al Berghain?
-    link: https://api.observablehq.com/@bbtgnn/weekend-al-berghain.js
+    link: http://api.observablehq.com/@bbtgnn/weekend-al-berghain.js
     id: berghain
 
   - authors: Michela Colorito
     project-title: LinkedIn for Dummies
-    link: https://api.observablehq.com/@michelacolorito/linkedin-for-dummies/2.js
+    link: http://api.observablehq.com/@michelacolorito/linkedin-for-dummies/2.js
     id: linkedin
 
   - authors: Dalila De Dominicis, Mattia Gabellini, Marco Loi
     project-title: Natale su Tinder
-    link: https://api.observablehq.com/@mattiagabellini08/natale-su-tinder.js
+    link: http://api.observablehq.com/@mattiagabellini08/natale-su-tinder.js
     id: tinder
 
   - authors: Lorenzo Ercolino, Alessandro Lanfrancofotti
     project-title: Non c'è niente di twee tra di noi
-    link: https://api.observablehq.com/@lorenzoercoli/non-ce-niente-di-twee-tra-di-noi.js
+    link: http://api.observablehq.com/@lorenzoercoli/non-ce-niente-di-twee-tra-di-noi.js
     id: twee
 
   - authors: Chiara Fanelli, Ludovica Meneghella
     project-title: Conoscenze concatenate
-    link: https://api.observablehq.com/@kipp-fhtagn/conoscenze-concatenate.js
+    link: http://api.observablehq.com/@kipp-fhtagn/conoscenze-concatenate.js
     id: concatenate
 
   - authors: Filomena Galvani, Mara Guerra
     project-title: Un progetto carino
-    link: https://api.observablehq.com/@maraguerra/un-progetto-carino.js
+    link: http://api.observablehq.com/@maraguerra/un-progetto-carino.js
     id: behance
 
   - authors: Margherita Ganzerli, Annalisa Iotti
     project-title: Amazing Amazon
-    link: https://api.observablehq.com/@annalisaiotti/amazing-amazon.js
+    link: http://api.observablehq.com/@annalisaiotti/amazing-amazon.js
     id: amazon
 
   - authors: Siria Renaudo, Francesca Sanson
     project-title: berlin, new berlin, berlin
-    link: https://api.observablehq.com/@francescasanson/berlin-new-berlin-berlin.js
+    link: http://api.observablehq.com/@francescasanson/berlin-new-berlin-berlin.js
     id: berlin
 
   - authors: Angela Rossi
     project-title: Non mi sento fortunato
-    link: https://api.observablehq.com/@angelarossi/non-mi-sento-fortunato.js
+    link: http://api.observablehq.com/@angelarossi/non-mi-sento-fortunato.js
     id: nonfortunato
 
   - authors: Giulia Silani, Martina Tresivan
     project-title: Hy guys!
-    link: https://api.observablehq.com/@giuliasilani/hy-guys/2.js
+    link: http://api.observablehq.com/@giuliasilani/hy-guys/2.js
     id: ferragni
