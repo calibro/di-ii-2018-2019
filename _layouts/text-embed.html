@@ -30,7 +30,7 @@ layout: default
   <div class="row">
     {% for projects in site.data[page.name].projects %}
     <div id="{{projects.id}}-embed" class="col-12 {{projects.id}} d-none">
-      <h2>{{projects.project-title}}</h2>
+      <h1>{{projects.project-title}}</h1>
       <script type="module">
         import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
 
