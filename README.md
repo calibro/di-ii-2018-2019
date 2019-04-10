@@ -4,7 +4,8 @@ Sito web per i risultati del corso di Design dell'interfaccia II, tenuto da [Cal
 # File editabili
 ## Esercitazioni
 ```
-├── _verbs/
+root
+├── _verbs
 │   ├── osservare.md
 │   ├── alterare.md
 │   ├── svelare.md
@@ -18,6 +19,14 @@ Sito web per i risultati del corso di Design dell'interfaccia II, tenuto da [Cal
 5. *url*: Identificativo dell'esercitazione.
 
 ## Dataset delle esercitazioni
+```
+root
+├── _data
+│   ├── osservare.yml
+│   ├── alterare.yml
+│   ├── svelare.yml
+│   ├── pubblicare.yml
+```
 Ad ogni esercitazione è associato un dataset YAML con i progetti ed ulteriori informazioni.
 
 ### Colonne del dataset
@@ -33,6 +42,12 @@ Al loro interno, i progetti possono avere:
   - *id*: Identificativo univoco.
   
 ## Ulteriori dataset
+```
+root
+├── _data
+│   ├── ...
+│   ├── bibliografia.yml
+```
 ### Bibliografia
 Dataset costruito in maniera simile ai progetti delle esercitazioni. Le informazioni sono riportate nel *Syllabus* alla fine della pagina.
 
