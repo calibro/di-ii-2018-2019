@@ -1,8 +1,0 @@
-slider: 
-  text_color: white
-  shadow_color: black
-  slides:
-    - image: /assets/images/placeholder-1.jpg
-      slide_html: 
-    - image: /assets/images/placeholder-1.jpg
-      slide_html: 
