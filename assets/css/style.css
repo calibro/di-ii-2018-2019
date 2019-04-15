@@ -80,8 +80,6 @@ a, a:visited {
 }
 
 #syllabus a:hover::after {
-	text-decoration: underline;
-	text-decoration-style: dotted;
 	content:"";
 	position: absolute;
 	left: 0;
@@ -90,6 +88,7 @@ a, a:visited {
 	height: 5rem;
 	border: 1px solid #FFFFFF;
 	border-radius: 50%;
+	text-decoration: none;
 }
 
 footer a:hover {
