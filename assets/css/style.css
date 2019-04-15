@@ -185,19 +185,21 @@ footer a:hover {
 }
 
 .title {
-/*	text-decoration: underline;
-	text-decoration-style: dotted;
-*/	border: 1px solid black;
+	border: 1px solid black;
 	border-radius: 50%;
 	text-align: center !important;
-	padding: 2rem 0 2rem 0;
+	padding: 2rem 1rem 2rem 1rem;
 }
 
 .testone {
 	font-size: 1.8rem;
 	margin-bottom: 5rem;
-	text-indent: 3rem;
+	text-indent: 6rem;
 	line-height: 130%;
+}
+
+#syllabus .testone {
+	text-indent: 0;
 }
 
 .authors {
@@ -233,6 +235,10 @@ footer a:hover {
 	flex-wrap: wrap;
 }
 
+.text-container {
+	align-items: center;
+}
+
 /* text-embed.html */
 
 .sheet {
@@ -250,7 +256,6 @@ footer a:hover {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
-	box-shadow: 0 0px 50px rgba(0,0,0,.2);
 }
 
 .sheet .text-container {
@@ -291,7 +296,7 @@ footer a:hover {
 	cursor: pointer;
 	transform: translateY(-0.5rem);
 	background: var(--main);
-	box-shadow: 0 0 5rem 5rem var(--main);
+	box-shadow: 0 0 4rem 4rem var(--main);
 }
 
 .text-element p {
@@ -299,13 +304,13 @@ footer a:hover {
 }
 
 .close {
-	position: sticky;
-	top: -1rem;
-	margin-top: -1rem;
-	margin-right: -1rem;
+	position: relative;
+	top: 0;
+	right: 0rem;
 	width: 32px;
 	height: 32px;
 	z-index: 9999;
+	background: #FFFFFF;
 }
 
 .close:hover {
@@ -380,6 +385,12 @@ footer a:hover {
 .image-small img {
 	margin-bottom: 1rem;
 	border: 1px solid black;
+}
+
+/* img-slider.html */
+
+.description {
+	text-indent: 6rem;
 }
 
 /* Breakpoints */
