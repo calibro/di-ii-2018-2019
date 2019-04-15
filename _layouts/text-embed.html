@@ -16,8 +16,8 @@ layout: default
     		<div class="text-container">
     			{% for projects in site.data[page.name].projects %}
           <div class="text-element" id="{{projects.id}}">
-           <h2>{{projects.project-title}}</h2>
-           <p>{{projects.authors}}</p>
+           <h2 class="title">{{projects.project-title}}</h2>
+           <p class="authors">{{projects.authors}}</p>
          </div>
          {% endfor %}
        </div>

@@ -8,25 +8,31 @@ projects:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
       - item: assets/images/placeholder-3.jpg
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
   - authors: Ludovica Meneghella, Angela Rossi
     id: lovenest
     project-title: What is Lovenest?
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
-
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
   - authors: Dalila De Dominicis, Siria Renaudo, Martina Tresivan
     id: alongtoledo
     project-title: Alongtoledo
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
   - authors: Daniele Colombo, Lorenzo Ercolino, Filomena Galvani
     id: oligarchy
     project-title: Airbnb Oligarchy
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
   - authors: Mattia Gabellini, Alessandro Lanfrancotti, Michela Colorito
     id: erbnb
@@ -34,6 +40,7 @@ projects:
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
   - authors: Marco Loi, Fernanda Villari, Chiara Fanelli
     id: airbeds
@@ -41,3 +48,4 @@ projects:
     img:
       - item: assets/images/placeholder-1.jpg
       - item: assets/images/placeholder-2.jpg
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

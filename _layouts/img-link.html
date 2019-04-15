@@ -17,10 +17,9 @@ layout: default
     			{% for projects in site.data[page.name].projects %}
           <div class="image-medium">
             <a href="{{ projects.link }}" target="_blank">
-              <img src="{{ site.baseurl }}/{{ projects.img }}" class="img-fluid">
-              <h2>{{ projects.project-title }}</h2>
-              <p>{{ projects.authors }}</p>
-            </a>
+              <img src="{{ site.baseurl }}/{{ projects.img }}" class="img-fluid"></a>
+              <h2 class="title">{{ projects.project-title }}</h2>
+              <p class="authors">{{ projects.authors }}</p>
           </div>
           {% endfor %}
         </div>

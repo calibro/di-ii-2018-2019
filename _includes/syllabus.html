@@ -10,13 +10,14 @@
          {% endfor %}
        </div>
 
+       {% if page.id == 'index' %}
        <p>{{ site.data.bibliografia.titolo }}</p>
-
        <ul class="list-unstyled">
         {% for libri in site.data.bibliografia.libri %}
         <li>{{ libri.autore }} "{{ libri.titolo }}", {{ libri.pubblicazione }}</li>
         {% endfor %} 
       </ul>
+      {% endif %}
     </div>
   </div>
 </div>
