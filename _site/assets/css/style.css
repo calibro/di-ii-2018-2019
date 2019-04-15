@@ -43,6 +43,7 @@ body {
 	font-weight: 300;
 	line-height: 130%;
 	transition: .5s all cubic-bezier(0.165, 0.84, 0.44, 1);
+	cursor: default;
 }
 
 body.fade-out {
@@ -69,10 +70,29 @@ h2 {
 	margin-bottom: 2rem;
 }
 
-a, a:visited, a:hover {
+a, a:visited {
 	color: var(--main);
 	/*transition: 1s ease all;*/
 	mix-blend-mode: exclusion;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	transition: 0.3s all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#syllabus a:hover::after {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	content:"";
+	position: absolute;
+	left: 0;
+	margin-top: -1.2rem;
+	width: 15rem;
+	height: 5rem;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+footer a:hover {
 	text-decoration: underline;
 	text-decoration-style: dotted;
 }
