@@ -210,9 +210,8 @@ footer a:hover {
 	width: 100%;
 	padding: 2rem 0 2rem 0;
 	background: var(--main);
-	box-shadow: 0 0 1rem 1rem var(--main);
+	box-shadow: 0 0 2rem 1rem var(--main);
 	border-radius: 50%;
-	border-bottom: 1px solid black;
 }
 
 .testone {
