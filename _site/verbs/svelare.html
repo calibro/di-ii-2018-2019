@@ -245,6 +245,10 @@
       $(".sheet .col-12").addClass("d-none");
       $("section").removeClass("ombre");
     });
+
+    $(".title::after").each(function() {
+      $(this).css("margin-left", "-" + $(".title").width() / 2);
+    });
   </script>
 
   <script src="/di-iij/assets/js/skew.js"></script>
