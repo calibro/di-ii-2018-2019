@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -29,7 +29,20 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
 
+  <!-- Meta tags -->
   <title>DI.II - {{ page.title }}</title>
+  <meta property="og:title"  content="DI.II - {{ page.title }}">
+  <meta name="twitter:title" content="DI.II - {{ page.title }}">
+
+  <meta name="description"         content="Lorem ipsum dolor sit amet">
+  <meta property="og:description"  content="Lorem ipsum dolor sit amet">
+  <meta name="twitter:description" content="Lorem ipsum dolor sit amet">
+
+  <meta property="og:image"  content="{{site.baseurl}}/assets/images/og-img.jpg">
+  <meta name="twitter:image" content="{{site.baseurl}}/assets/images/og-img.jpg">
+
+  <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
 </head>
 <body class="fade-out">
   {% include navigation.html %}
@@ -52,10 +65,10 @@
 
   <script>
     $(function() {
-      $('body').removeClass('fade-out');
+      $("body").removeClass("fade-out");
     });
 
-    $('[id^="myCarousel"]').carousel();
+    $("[id^="myCarousel"]").carousel();
 
     $(".text-element").click(function() {
       let id = $(this).attr("id");
