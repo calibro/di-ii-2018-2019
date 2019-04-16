@@ -82,13 +82,15 @@ a, a:visited {
 #syllabus a:hover::after {
 	content:"";
 	position: absolute;
-	left: 0;
-	margin-top: -1.2rem;
-	width: 15rem;
-	height: 5rem;
-	border: 1px solid #FFFFFF;
+	left: 1rem;
+	margin-top: 1.5rem;
+	width: 1rem;
+	height: 1rem;
+	background: var(--main);
 	border-radius: 50%;
 	text-decoration: none;
+	z-index: -9999;
+	box-shadow: 0 0 2rem 3rem var(--main);
 }
 
 footer a:hover {
