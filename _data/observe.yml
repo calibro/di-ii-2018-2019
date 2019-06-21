@@ -1,8 +1,7 @@
----
 title: osservare
 desc: L'esercitazione è stata svolta in gruppi da tre.
-projects: 
-  - authors: Giovanni Abbattepaolo, Fernanda Villari 
+projects:
+  - authors: Giovanni Abbattepaolo, Fernanda Villari
     project-title: Weekend al Berghain?
     link: https://api.observablehq.com/@bbtgnn/weekend-al-berghain.js
     id: berghain
@@ -38,7 +37,7 @@ projects:
     id: amazon
 
   - authors: Siria Renaudo, Francesca Sanson
-    project-title: berlin, new berlin, berlin
+    project-title: Berlin, new berlin, berlin
     link: https://api.observablehq.com/@francescasanson/berlin-new-berlin-berlin.js
     id: berlin
 

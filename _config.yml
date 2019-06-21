@@ -1,6 +1,6 @@
-baseurl: /di-iij
-url: http://andreabenedetti.github.io
-collections: 
+baseurl: /di-ii-2018-2019
+url: https://calib.ro
+collections:
   verbs:
     title: Verbi
     output: true

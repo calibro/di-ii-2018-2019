@@ -1,9 +1,11 @@
 ---
-
 layout: home
-title: Syllabus. Design dell'intefaccia II presso ISIA Urbino
+title: Interface Design II at ISIA Urbino — Year 2018/19
 id: index
-
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in **voluptate velit esse cillum dolore eu fugiat nulla pariatur**. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Everyday we interact with a complex system of infrastructures, technologies, algorithms, corporations, individuals, data, protocols, etc. through digital interfaces.
+Phones, computers and other interconnected devices mediate behaviours, encourage interactions and influence the way we see and experience the world around us.
+The role of designers is usually focused on making these interactions as frictionless and smooth as possible, to create a never-stopping data exchange process that generates value.
+The course aims at experimenting with **methods and practices for approaching and exploring the relationship between interfaces, data and algorithms**
+Each chapter of the course revolves around a specific action and produces a different output in order to develop different skills and methodologies.
