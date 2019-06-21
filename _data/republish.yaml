@@ -1,15 +1,6 @@
 title: Pubblicare
 desc: L'esercitazione è stata svolta in gruppi da tre.
 projects:
-  - authors: Margherita Ganzerli, Francesca Sanson, Giulia Silani, Giovanni Abbattepaolo
-    id: naples
-    project-title: Naples’ popular language
-    img:
-      - item: assets/images/pubblicare/napule/napule-1.jpg
-      - item: assets/images/pubblicare/napule/napule-2.jpg
-      - item: assets/images/pubblicare/napule/napule-3.jpg
-      - item: assets/images/pubblicare/napule/napule-4.jpg
-    desc: "Naples has always been a big travel destination, but in the last years the tourist flows have grown significantly: from 2010 to 2017 the number of visitors nearly doubled. Confirmation of this trend can be found in Airbnb statistics: in 2014 there were only 568 hosts in Naples - now they’re 4243 (a number seven times bigger). This research tries to analyze the rhetoric Airbnb hosts use to meet the expectations of this fast-growing mass of visitors: how does a name that draws inspiration from Naples’ rich tradition stack against one that uses a more exclusive-sounding language?"
   - authors: Ludovica Meneghella, Angela Rossi
     id: lovenest
     project-title: What is Lovenest?
@@ -19,6 +10,15 @@ projects:
       - item: assets/images/pubblicare/lovenest/lovenest-3.jpg
       - item: assets/images/pubblicare/lovenest/lovenest-4.jpg
     desc: "The project aims to investigate the commodification of the idea of love in tourist cities by analyzing the accommodation listings published on the AirBnB website. The research has been restricted to Florence and Venice, known by tourists to be the best destinations where to spend a romantic weekend. We started by filtering the listings through three  particular words: Romantic, Love and Nest…"
+  - authors: Margherita Ganzerli, Francesca Sanson, Giulia Silani, Giovanni Abbattepaolo
+    id: naples
+    project-title: Naples’ popular language
+    img:
+      - item: assets/images/pubblicare/napule/napule-1.jpg
+      - item: assets/images/pubblicare/napule/napule-2.jpg
+      - item: assets/images/pubblicare/napule/napule-3.jpg
+      - item: assets/images/pubblicare/napule/napule-4.jpg
+    desc: "Naples has always been a big travel destination, but in the last years the tourist flows have grown significantly: from 2010 to 2017 the number of visitors nearly doubled. Confirmation of this trend can be found in Airbnb statistics: in 2014 there were only 568 hosts in Naples - now they’re 4243 (a number seven times bigger). This research tries to analyze the rhetoric Airbnb hosts use to meet the expectations of this fast-growing mass of visitors: how does a name that draws inspiration from Naples’ rich tradition stack against one that uses a more exclusive-sounding language?"
 
   - authors: Dalila De Dominicis, Siria Renaudo, Martina Tresivan
     id: alongtoledo
