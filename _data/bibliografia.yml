@@ -1,5 +1,5 @@
 ---
-  titolo: Bibliography
+  titolo: Suggested readings
   descrizione: Bibliografia utile al corso e utilizzata come riferimento teorico.
   libri: 
     - autore: Anceschi, G. (a cura di).
@@ -11,3 +11,4 @@
     - autore: Krug, S.
       titolo: Don't make me think. A common sense approach to web usability
       pubblicazione: Berkeley, Calif. New Riders, 2014
+
