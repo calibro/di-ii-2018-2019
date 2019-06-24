@@ -2,13 +2,36 @@
   titolo: Suggested readings
   descrizione: Bibliografia utile al corso e utilizzata come riferimento teorico.
   libri: 
-    - autore: Anceschi, G. (a cura di).
-      titolo: Il progetto delle interfacce. Oggetti colloquiali e protesi virtuali
-      pubblicazione: Milano, Domus Academy, 1993
-    - autore: Bonsiepe, G.
-      titolo: Dall’oggetto all’interfaccia. Mutazioni del Design
-      pubblicazione: Milano, Feltrinelli, 1995
-    - autore: Krug, S.
-      titolo: Don't make me think. A common sense approach to web usability
-      pubblicazione: Berkeley, Calif. New Riders, 2014
-
+  - autore: Cade.  
+    titolo: "On Weaponised Design." 
+    pubblicazione:  Accessed November 01, 2018. https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design/
+  - autore: CARDON, Dominique.
+    titolo:  “Deconstructing the Algorithm - Four Types of Digital Information Calculations.” 
+    pubblicazione:  In Algorithmic Cultures, 95–110. New York: Routledge, 2016.
+  - autore: Carlin Wing, Martino Morandi, Peggy Pierrot, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses.  
+    titolo: The Techno-Galactic Guide to Software Observation.  
+    pubblicazione:  Constant, Association for Art and Media, 2018. 
+  - autore: Galloway, Alexander R.  
+    titolo: The Interface Effect  
+    pubblicazione:  Polity Press, 2012.
+  - autore: Hankey, Stephanie, and Marek Tuszynski. 
+    titolo: Efficiency and Madness. Using Data and Technology to Solve Social, Environmental and Political Problems 
+    pubblicazione:  Heinrich Böll Stiftung, Berlin, (2017)
+  - autore: Kubrak, Anastasia 
+    titolo: User-Agent: If everything is so smooth, why am I so sad?  
+    pubblicazione:  
+  - autore: Moll, Joana.  
+    titolo: "Poetic deconstruction of the interface." 
+    pubblicazione:  Accessed November 15, 2018. http://janavirgin.com/HANGAR/.
+  - autore: PIPES BCN.
+    titolo: "Manifesto for a critical approach to the user interface."  
+    pubblicazione:  Accessed November 1, 2018. https://interfacemanifesto.hangar.org/index.php/Main_Page
+  - autore: Ricci, Donato, Calibro, and óbelo 
+    titolo: Cozy Flat - A visual inquiry into the Private Spaces we Share.  
+    pubblicazione:  Accessed November 01, 2018. https://cozyfl.at/
+  - autore: Rogers, Richard.
+    titolo: Digital Methods 
+    pubblicazione:  MIT Press, 2013
+  - autore: Srnicek, Nick.  
+    titolo: Platform capitalism.  
+    pubblicazione:  John Wiley & Sons, 2017.
