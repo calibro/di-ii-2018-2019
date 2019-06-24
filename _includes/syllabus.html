@@ -14,7 +14,7 @@
        <p>{{ site.data.bibliografia.titolo }}</p>
        <ul class="list-unstyled">
         {% for libri in site.data.bibliografia.libri %}
-        <li>{{ libri.autore }} "{{ libri.titolo }}", {{ libri.pubblicazione }}</li>
+        <li>{{ libri.autore }} "{{ libri.titolo }}" {{ libri.pubblicazione }}</li>
         {% endfor %} 
       </ul>
       {% endif %}
