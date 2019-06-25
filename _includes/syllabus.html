@@ -11,10 +11,10 @@
        </div>
 
        {% if page.id == 'index' %}
-       <p>{{ site.data.bibliografia.titolo }}</p>
+       <p class="text-uppercase">{{ site.data.bibliografia.titolo }}</p>
        <ul class="list-unstyled">
         {% for libri in site.data.bibliografia.libri %}
-        <li>{{ libri.autore }} "{{ libri.titolo }}" {{ libri.pubblicazione }}</li>
+        <li>{{ libri.autore }}. {{ libri.titolo }}. <span class="text-white-50">{{ libri.pubblicazione }}.</span></li>
         {% endfor %} 
       </ul>
       {% endif %}

@@ -1,7 +1,7 @@
 ---
 title: Reveal (December 19–20)
 name: reveal
-digest: Extract and visualize the invisible trackers that follows you in one hour of browsing the web.
+digest: Extract and visualize the invisible trackers that follows you in one hour of web browsing.
 order: 2
 layout: img-grid
 ---
