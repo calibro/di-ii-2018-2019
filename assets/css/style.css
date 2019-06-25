@@ -204,11 +204,14 @@ footer a:hover {
 .testone {
 	font-size: 1.8rem;
 	margin-bottom: 5rem;
-	text-indent: 6rem;
 	line-height: 130%;
 }
 
-#syllabus .testone {
+.testone p:first-of-type{
+	text-indent: 6rem;
+}
+
+#syllabus .testone p {
 	text-indent: 0;
 }
 

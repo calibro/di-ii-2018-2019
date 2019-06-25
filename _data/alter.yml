@@ -22,10 +22,10 @@ projects:
     link: https://francescasanson.github.io/salebook-extension/
     img: assets/images/alterare/salebook.jpg
 
-  - authors: Filomena Galvani
-    project-title: IGetDown
-    link: https://www.youtube.com/watch?v=n2eaduf4QIo
-    img: assets/images/alterare/igetdown.jpg
+  # - authors: Filomena Galvani
+  #   project-title: IGetDown
+  #   link: https://www.youtube.com/watch?v=n2eaduf4QIo
+  #   img: assets/images/alterare/igetdown.jpg
 
   - authors: Margherita Ganzerli, Marco Loi, Siria Renaudo
     project-title: Amazoff
