@@ -6,7 +6,7 @@ order: 2
 layout: img-grid
 ---
 
-Web trackers are pieces of code that run in the background of a web pages to collect and share information about users activities. Online tracking is an integral component of the internet's business model and it plays a vital role in a larger industry which profits out of our data [1](https://ourdataourselves.tacticaltech.org/posts/trackography/)
+Web trackers are pieces of code that run in the background of a web pages to collect and share information about users activities. Online tracking is an integral component of the internet's business model and it plays a vital role in a larger industry which profits out of our data \[[1](https://ourdataourselves.tacticaltech.org/posts/trackography/)\].
 During this chapter the students had to browse the web for one hour and extract and visualize the trackers that followed them. See an [example](https://kipp-fhtagn.github.io/ai2html-fanelli/index.html) of the output.
 
 1. Browse the web intensively for one hour
