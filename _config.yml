@@ -1,5 +1,6 @@
 baseurl: /di-ii-2018-2019
 url: https://calib.ro
+description: "The course aims at reframing the interface as a cultural and political object. The students are invited to experiment different methods and practices to approach and explore the relationship between interfaces, data and algorithms."
 collections:
   verbs:
     title: Verbi

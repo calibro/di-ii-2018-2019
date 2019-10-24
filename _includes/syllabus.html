@@ -1,24 +1,30 @@
 <section id="syllabus">
-	<div class="container">
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <p>{{ site.verbs.title }}</p>
         <div class="testone">
-          {% assign verbs = site.verbs | sort: 'order' %}
-         {% for verb in verbs %}
-         <p><a href="{{site.baseurl}}/verbs/{{ verb.name }}">{{ verb.title }}</a>. {{ verb.digest }}</p>
-         {% endfor %}
-       </div>
+          {% assign verbs = site.verbs | sort: 'order' %} {% for verb in verbs
+          %}
+          <p>
+            <a href="{{site.baseurl}}/verbs/{{ verb.name }}">{{ verb.title }}</a
+            >. {{ verb.digest }}
+          </p>
+          {% endfor %}
+        </div>
 
-       {% if page.id == 'index' %}
-       <p class="text-uppercase">{{ site.data.bibliografia.titolo }}</p>
-       <ul class="list-unstyled">
-        {% for libri in site.data.bibliografia.libri %}
-        <li>{{ libri.autore }}. {{ libri.titolo }}. <span class="text-white-50">{{ libri.pubblicazione }}.</span></li>
-        {% endfor %} 
-      </ul>
-      {% endif %}
+        {% if page.id == 'index' %}
+        <p class="text-uppercase">{{ site.data.bibliografia.titolo }}</p>
+        <ul class="list-unstyled">
+          {% for libri in site.data.bibliografia.libri %}
+          <li class="text-break">
+            {{ libri.autore }}. {{ libri.titolo }}.
+            <span class="text-white-50">{{ libri.pubblicazione }}.</span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
 </section>
