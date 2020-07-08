@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Interface Design II at ISIA Urbino — Academic year 2018–2019
+title: Interface Design II at ISIA Urbino — Academic years 2018–2020
 id: index
 ---
 
